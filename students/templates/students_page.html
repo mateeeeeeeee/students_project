@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>yvela moswavle</title>
+</head>
+<body>
+    <h1>yvela moswavle</h1>
+    <ul>
+        {% for student in students %}
+            <li>{{ student.saxeli }} {{ student.gvari }} - GPA: {{ student.gpa }}, kursi: {{ student.kursi }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
